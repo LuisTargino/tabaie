@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manual BMW Brasil: guia moderno sobre história, modelos, custos e compra de BMW no Brasil.">
+  <title>Manual BMW Brasil</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="topbar" id="topbar">
+    <div class="container topbar-inner">
+        <a class="brand" href="#home">Manual <strong>BMW</strong></a>
+        <nav class="nav" aria-label="Navegação principal">
+          <button class="nav-toggle" id="navToggle" aria-expanded="false">Menu</button>
+          <div class="nav-menu" id="navMenu">
+            <a href="#historia">História</a>
+            <a href="#modelos">Modelos</a>
+            <a href="#comparacao">Comparação</a>
+            <a href="#custos">Custos</a>
+            <a href="#guia">Guia</a>
+          </div>
+        </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Guia Premium</span>
+          <h1>O Universo BMW no Brasil.</h1>
+          <p class="hero-text">
+            Uma visão direta e minimalista: design, performance, custos reais e os detalhes que separam o sonho da realidade.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#guia">Ver Guia de Compra</a>
+            <button class="btn btn-secondary" id="audioButton" type="button">Ouvir Resumo</button>
+            <button class="btn btn-ghost" id="fullscreenButton" type="button">⛶</button>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal reveal-delay">
+          <div class="hero-image-container">
+            <img src="320i.jpg" alt="BMW Frontal" class="hero-img">
+          </div>
+          <div class="hero-car-card">
+            <span class="badge">DNA Alemão</span>
+            <h2>Elegância que acelera.</h2>
+            <p>Do Série 3 ao M4, a marca mistura status, tecnologia e prazer ao dirigir de um jeito inconfundível.</p>
+            <div class="mini-stats">
+              <div>
+                <strong>Premium</strong>
+                <span>Acabamento</span>
+              </div>
+              <div>
+                <strong>Esportivo</strong>
+                <span>Dinâmica</span>
+              </div>
+              <div>
+                <strong>Exigente</strong>
+                <span>Manutenção</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="historia">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">História</span>
+          <h2>Da precisão alemã ao desejo global.</h2>
+        </div>
+        <div class="card wide-card reveal">
+          <p>
+            A BMW construiu sua reputação com foco em engenharia refinada, desempenho e identidade visual forte. Ao longo das décadas, a marca saiu de uma fabricante voltada à mecânica de alta qualidade para se tornar símbolo máximo de carro premium, unindo luxo, tecnologia e esportividade no asfalto.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light" id="modelos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Modelos</span>
+          <h2>Os ícones da marca.</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <img src="320i.jpg" alt="BMW 320i" class="card-img">
+            <span class="card-kicker">Entrada Premium</span>
+            <h3>320i</h3>
+            <p>O sedã premium mais amado do Brasil. Equilibra visual, motor turbo e uso diário com presença.</p>
+          </article>
+          <article class="card reveal">
+            <img src="330i.jpg" alt="BMW 330i" class="card-img">
+            <span class="card-kicker">Desempenho</span>
+            <h3>330i</h3>
+            <p>Mais potência e melhor pacote tecnológico. Esportividade real sem ir ao extremo da linha M.</p>
+          </article>
+          <article class="card reveal">
+            <img src="serie5.jpg" alt="BMW Série 5" class="card-img">
+            <span class="card-kicker">Executivo</span>
+            <h3>Série 5</h3>
+            <p>Sedã sofisticado, imponente e confortável. Pensado para quem quer luxo com pegada corporativa.</p>
+          </article>
+          <article class="card reveal">
+            <img src="m4.jpg" alt="BMW M4" class="card-img">
+            <span class="card-kicker">O Sonho</span>
+            <h3>M4</h3>
+            <p>O ícone que mistura agressividade e status em um pacote de pista homologado para as ruas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="comparacao">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Comparativo</span>
+          <h2>Série 3 vs Série 5</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Série 3</h3>
+            <ul class="clean-list">
+              <li>Mais ágil e com visual jovem</li>
+              <li>Melhor custo/benefício premium</li>
+              <li>Focado em prazer ao dirigir</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Série 5</h3>
+            <ul class="clean-list">
+              <li>Mais espaço e sofisticação</li>
+              <li>Perfil executivo e maduro</li>
+              <li>Focado em conforto absoluto</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light" id="custos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Realidade</span>
+          <h2>A matemática do luxo.</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Manutenção</h3>
+            <p>Peças e mão de obra especializada custam caro. Negligenciar a manutenção preventiva é o maior erro de novos donos.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Seguro</h3>
+            <p>O valor é elevado devido ao custo de reparabilidade das peças importadas e ao perfil de risco associado ao veículo.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Consumo</h3>
+            <p>Motores eficientes, porém exigentes. O uso urbano severo e a gasolina premium necessária pesam no orçamento mensal.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="guia">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Checklist</span>
+          <h2>Como comprar com segurança.</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="card reveal">
+            <h3>Inspeção</h3>
+            <ul class="clean-list">
+              <li>Exija laudo cautelar aprovado</li>
+              <li>Verifique o histórico de revisões</li>
+              <li>Cheque vazamentos crônicos (tampa de válvulas)</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Evite Golpes</h3>
+            <ul class="clean-list">
+              <li>Fuja de preços muito abaixo da FIPE</li>
+              <li>Não pague sinais antecipados</li>
+              <li>Verifique a documentação em cartório</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Manual BMW Brasil &copy; 2026. Design Minimalista.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
